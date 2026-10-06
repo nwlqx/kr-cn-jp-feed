@@ -5,6 +5,8 @@ on:
     - cron: "0 22 * * *"   # 22:00 UTC = 06:00 Singapore time (next day)
   push:
     branches: [main]       # rebuild right away when you add words
+    paths-ignore:          # the bot's feed.xml commit must not retrigger this
+      - feed.xml
   workflow_dispatch:       # "Run workflow" button in the Actions tab
 
 permissions:
@@ -37,17 +39,31 @@ jobs:
       - name: Build feed
         run: python build_feed.py
 
-      # Committing the feed daily keeps the repo "active", so GitHub doesn't
-      # auto-disable this schedule after 60 days without commits.
+      # feed.xml is committed to main so jsDelivr can serve it from the repo.
+      # This also keeps the repo "active", so GitHub doesn't auto-disable the
+      # schedule after 60 days without commits.
+      # No infinite loop: pushes made with GITHUB_TOKEN don't trigger
+      # workflows, and as extra guards the commit says [skip ci] and the push
+      # trigger ignores feed.xml.
       - name: Commit feed.xml
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add feed.xml
           if ! git diff --cached --quiet; then
-            git commit -m "Update feed $(TZ=Asia/Singapore date +%F)"
+            git commit -m "Update feed $(TZ=Asia/Singapore date +%F) [skip ci]"
             git push
           fi
+
+      # jsDelivr caches branch URLs for up to ~12 hours; purge so today's word
+      # shows up right away. One purge clears every jsDelivr hostname
+      # (cdn., fastly., gcore., ...). Failures are ignored.
+      - name: Purge jsDelivr cache
+        continue-on-error: true
+        run: |
+          curl -fsS --retry 3 --max-time 30 \
+            "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/feed.xml" \
+            || echo "jsDelivr purge failed (ignored)"
 
       - name: Stage site
         run: mkdir _site && cp feed.xml _site/

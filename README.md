@@ -2,7 +2,14 @@
 
 A daily RSS 2.0 feed for a Wodle e-ink device. Each day it publishes 3 cards. Each card shows one concept in Korean, Simplified Chinese and Japanese, usually as cognates with the same Chinese-character root (학습 / 学习 / 学習).
 
-**Feed URL:** https://nwlqx.github.io/kr-cn-jp-feed/feed.xml
+**Feed URLs.** The content is the same at each. If the device can't load one, try the next:
+
+1. https://cdn.jsdelivr.net/gh/nwlqx/kr-cn-jp-feed@main/feed.xml
+2. https://fastly.jsdelivr.net/gh/nwlqx/kr-cn-jp-feed@main/feed.xml
+3. https://gcore.jsdelivr.net/gh/nwlqx/kr-cn-jp-feed@main/feed.xml
+4. https://nwlqx.github.io/kr-cn-jp-feed/feed.xml (GitHub Pages)
+
+The jsDelivr URLs serve the `feed.xml` committed to `main`. jsDelivr caches branch URLs for up to about 12 hours. After each update the workflow purges that cache so the new word appears within minutes. If a purge fails, the old feed can stay up for up to about 12 hours. A failed purge doesn't fail the workflow.
 
 ## How it works
 
@@ -12,7 +19,7 @@ A daily RSS 2.0 feed for a Wodle e-ink device. Each day it publishes 3 cards. Ea
 | `config.json` | Start date, review intervals, layout and length settings. |
 | `build_feed.py` | Builds and validates `feed.xml`. Uses only the standard library. |
 | `test_build_feed.py` | Builds feeds for several dates and checks item count, ordering and title lengths. |
-| `.github/workflows/daily.yml` | Runs every day at 06:00 Singapore time, on every push to `main`, and from the Actions tab using **Run workflow**. It runs the tests, builds the feed, commits it and deploys it to GitHub Pages. You can also turn on an upload to Alibaba Cloud OSS. |
+| `.github/workflows/daily.yml` | Runs every day at 06:00 Singapore time, on every push to `main`, and from the Actions tab using **Run workflow**. It runs the tests, builds the feed, commits it to `main` (for jsDelivr), deploys it to GitHub Pages and purges the jsDelivr cache. You can also turn on an upload to Alibaba Cloud OSS. |
 
 Each day moves forward one row in `words.csv`. The three items are:
 
