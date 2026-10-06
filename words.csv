@@ -1,33 +1,33 @@
-id,meaning,ko,ko_rom,zh,zh_pinyin,ja,ja_rom,ex_ko,ex_zh,ex_ja,ex_en,notes
-1,to study,학습,hakseup,学习,xuéxí,学習,gakushū,매일 한국어를 학습해요.,我每天学习韩语。,毎日韓国語を学習しています。,I study Korean every day.,
-2,time,시간,sigan,时间,shíjiān,時間,jikan,시간이 없어요.,我没有时间。,時間がありません。,I don't have time.,
-3,student,학생,haksaeng,学生,xuésheng,学生,gakusei,저는 학생이에요.,我是学生。,私は学生です。,I am a student.,zh 学生 often read with neutral tone: xuésheng
-4,university,대학,daehak,大学,dàxué,大学,daigaku,대학에 다녀요.,我在上大学。,大学に通っています。,I go to university.,
-5,library,도서관,doseogwan,图书馆,túshūguǎn,図書館,toshokan,도서관에 가요.,我去图书馆。,図書館に行きます。,I'm going to the library.,
-6,telephone,전화,jeonhwa,电话,diànhuà,電話,denwa,전화해 주세요.,请给我打电话。,電話してください。,Please call me.,
-7,bank,은행,eunhaeng,银行,yínháng,銀行,ginkō,은행은 어디예요?,银行在哪里？,銀行はどこですか。,Where is the bank?,
-8,music,음악,eumak,音乐,yīnyuè,音楽,ongaku,음악을 좋아해요.,我喜欢音乐。,音楽が好きです。,I like music.,
-9,"problem, question",문제,munje,问题,wèntí,問題,mondai,문제없어요.,没问题。,問題ありません。,No problem.,
-10,world,세계,segye,世界,shìjiè,世界,sekai,세계는 넓어요.,世界很大。,世界は広いです。,The world is big.,
-11,economy,경제,gyeongje,经济,jīngjì,経済,keizai,경제가 좋아졌어요.,经济变好了。,経済が良くなりました。,The economy has improved.,
-12,exercise,운동,undong,运动,yùndòng,運動,undō,매일 운동해요.,我每天运动。,毎日運動します。,I exercise every day.,
-13,travel,여행,yeohaeng,旅行,lǚxíng,旅行,ryokō,여행을 좋아해요.,我喜欢旅行。,旅行が好きです。,I like traveling.,
-14,preparation,준비,junbi,准备,zhǔnbèi,準備,junbi,준비됐어요?,准备好了吗？,準備はできましたか。,Are you ready?,
-15,practice,연습,yeonseup,练习,liànxí,練習,renshū,매일 연습해요.,我每天练习。,毎日練習します。,I practice every day.,
-16,daily life,생활,saenghwal,生活,shēnghuó,生活,seikatsu,한국 생활은 어때요?,在韩国的生活怎么样？,韓国での生活はどうですか。,How is life in Korea?,
-17,culture,문화,munhwa,文化,wénhuà,文化,bunka,한국 문화에 관심이 있어요.,我对韩国文化感兴趣。,韓国の文化に興味があります。,I'm interested in Korean culture.,
-18,history,역사,yeoksa,历史,lìshǐ,歴史,rekishi,역사를 공부해요.,我学习历史。,歴史を勉強します。,I study history.,
-19,"caution, attention",주의,juui,注意,zhùyì,注意,chūi,주의하세요.,请注意。,注意してください。,Please be careful.,ja 注意 = chūi (long u)
-20,plan,계획,gyehoek,计划,jìhuà,計画,keikaku,계획이 있어요?,你有计划吗？,計画がありますか。,Do you have a plan?,
-21,animal,동물,dongmul,动物,dòngwù,動物,dōbutsu,동물을 좋아해요.,我喜欢动物。,動物が好きです。,I like animals.,
-22,park,공원,gongwon,公园,gōngyuán,公園,kōen,공원에서 산책해요.,我在公园散步。,公園で散歩します。,I take a walk in the park.,
-23,opinion,의견,uigyeon,意见,yìjiàn,意見,iken,의견을 말해 주세요.,请说说你的意见。,意見を言ってください。,Please share your opinion.,zh 意见 can also mean complaint/objection
-24,decision,결정,gyeoljeong,决定,juédìng,決定,kettei,결정했어요.,我决定了。,決定しました。,I've decided.,
-25,freedom,자유,jayu,自由,zìyóu,自由,jiyū,자유 시간이 있어요.,我有自由时间。,自由な時間があります。,I have free time.,
-26,safety,안전,anjeon,安全,ānquán,安全,anzen,안전이 제일이에요.,安全第一。,安全第一です。,Safety first.,
-27,market,시장,sijang,市场,shìchǎng,市場,ichiba,시장에 가요.,我去市场。,市場に行きます。,I'm going to the market.,ko 시장 can also mean mayor (市長); zh everyday 'wet market' is 菜市场
-28,gratitude,감사,gamsa,感谢,gǎnxiè,感謝,kansha,정말 감사합니다.,非常感谢。,本当に感謝しています。,Thank you very much.,
-29,health,건강,geongang,健康,jiànkāng,健康,kenkō,건강이 제일 중요해요.,健康最重要。,健康が一番大切です。,Health is the most important thing.,
-30,important,중요,jungyo,重要,zhòngyào,重要,jūyō,이건 중요해요.,这很重要。,これは重要です。,This is important.,
-31,necessary,필요,piryo,必要,bìyào,必要,hitsuyō,그건 필요 없어요.,没有必要。,それは必要ありません。,That's not necessary.,ko 필요 is pronounced [피료] → piryo
-32,possible,가능,ganeung,可能,kěnéng,可能,kanō,가능해요?,这可能吗？,可能ですか。,Is it possible?,
+id,meaning,ko,ko_rom,zh,zh_pinyin,ja,ja_rom,ex_ko,ex_ko_rom,ex_zh,ex_ja,ex_en,notes
+1,to study,학습,hakseup,学习,xuéxí,学習,gakushū,매일 한국어를 학습해요.,Maeil hangugeoreul hakseupaeyo.,我每天学习韩语。,毎日韓国語を学習しています。,I study Korean every day.,
+2,time,시간,sigan,时间,shíjiān,時間,jikan,시간이 없어요.,Sigani eopseoyo.,我没有时间。,時間がありません。,I don't have time.,
+3,student,학생,haksaeng,学生,xuésheng,学生,gakusei,저는 학생이에요.,Jeoneun haksaengieyo.,我是学生。,私は学生です。,I am a student.,zh 学生 often read with neutral tone: xuésheng
+4,university,대학,daehak,大学,dàxué,大学,daigaku,대학에 다녀요.,Daehage danyeoyo.,我在上大学。,大学に通っています。,I go to university.,
+5,library,도서관,doseogwan,图书馆,túshūguǎn,図書館,toshokan,도서관에 가요.,Doseogwane gayo.,我去图书馆。,図書館に行きます。,I'm going to the library.,
+6,telephone,전화,jeonhwa,电话,diànhuà,電話,denwa,전화해 주세요.,Jeonhwahae juseyo.,请给我打电话。,電話してください。,Please call me.,
+7,bank,은행,eunhaeng,银行,yínháng,銀行,ginkō,은행은 어디예요?,Eunhaengeun eodiyeyo?,银行在哪里？,銀行はどこですか。,Where is the bank?,
+8,music,음악,eumak,音乐,yīnyuè,音楽,ongaku,음악을 좋아해요.,Eumageul joahaeyo.,我喜欢音乐。,音楽が好きです。,I like music.,
+9,"problem, question",문제,munje,问题,wèntí,問題,mondai,문제없어요.,Munje-eopseoyo.,没问题。,問題ありません。,No problem.,
+10,world,세계,segye,世界,shìjiè,世界,sekai,세계는 넓어요.,Segyeneun neolbeoyo.,世界很大。,世界は広いです。,The world is big.,
+11,economy,경제,gyeongje,经济,jīngjì,経済,keizai,경제가 좋아졌어요.,Gyeongjega joajyeosseoyo.,经济变好了。,経済が良くなりました。,The economy has improved.,
+12,exercise,운동,undong,运动,yùndòng,運動,undō,매일 운동해요.,Maeil undonghaeyo.,我每天运动。,毎日運動します。,I exercise every day.,
+13,travel,여행,yeohaeng,旅行,lǚxíng,旅行,ryokō,여행을 좋아해요.,Yeohaengeul joahaeyo.,我喜欢旅行。,旅行が好きです。,I like traveling.,
+14,preparation,준비,junbi,准备,zhǔnbèi,準備,junbi,준비됐어요?,Junbidwaesseoyo?,准备好了吗？,準備はできましたか。,Are you ready?,
+15,practice,연습,yeonseup,练习,liànxí,練習,renshū,매일 연습해요.,Maeil yeonseupaeyo.,我每天练习。,毎日練習します。,I practice every day.,
+16,daily life,생활,saenghwal,生活,shēnghuó,生活,seikatsu,한국 생활은 어때요?,Hanguk saenghwareun eottaeyo?,在韩国的生活怎么样？,韓国での生活はどうですか。,How is life in Korea?,
+17,culture,문화,munhwa,文化,wénhuà,文化,bunka,한국 문화에 관심이 있어요.,Hanguk munhwae gwansimi isseoyo.,我对韩国文化感兴趣。,韓国の文化に興味があります。,I'm interested in Korean culture.,
+18,history,역사,yeoksa,历史,lìshǐ,歴史,rekishi,역사를 공부해요.,Yeoksareul gongbuhaeyo.,我学习历史。,歴史を勉強します。,I study history.,
+19,"caution, attention",주의,juui,注意,zhùyì,注意,chūi,주의하세요.,Juuihaseyo.,请注意。,注意してください。,Please be careful.,ja 注意 = chūi (long u)
+20,plan,계획,gyehoek,计划,jìhuà,計画,keikaku,계획이 있어요?,Gyehoegi isseoyo?,你有计划吗？,計画がありますか。,Do you have a plan?,
+21,animal,동물,dongmul,动物,dòngwù,動物,dōbutsu,동물을 좋아해요.,Dongmureul joahaeyo.,我喜欢动物。,動物が好きです。,I like animals.,
+22,park,공원,gongwon,公园,gōngyuán,公園,kōen,공원에서 산책해요.,Gongwoneseo sanchaekaeyo.,我在公园散步。,公園で散歩します。,I take a walk in the park.,
+23,opinion,의견,uigyeon,意见,yìjiàn,意見,iken,의견을 말해 주세요.,Uigyeoneul malhae juseyo.,请说说你的意见。,意見を言ってください。,Please share your opinion.,zh 意见 can also mean complaint/objection
+24,decision,결정,gyeoljeong,决定,juédìng,決定,kettei,결정했어요.,Gyeoljeonghaesseoyo.,我决定了。,決定しました。,I've decided.,
+25,freedom,자유,jayu,自由,zìyóu,自由,jiyū,자유 시간이 있어요.,Jayu sigani isseoyo.,我有自由时间。,自由な時間があります。,I have free time.,
+26,safety,안전,anjeon,安全,ānquán,安全,anzen,안전이 제일이에요.,Anjeoni jeirieyo.,安全第一。,安全第一です。,Safety first.,
+27,market,시장,sijang,市场,shìchǎng,市場,ichiba,시장에 가요.,Sijange gayo.,我去市场。,市場に行きます。,I'm going to the market.,ko 시장 can also mean mayor (市長); zh everyday 'wet market' is 菜市场
+28,gratitude,감사,gamsa,感谢,gǎnxiè,感謝,kansha,정말 감사합니다.,Jeongmal gamsahamnida.,非常感谢。,本当に感謝しています。,Thank you very much.,
+29,health,건강,geongang,健康,jiànkāng,健康,kenkō,건강이 제일 중요해요.,Geongangi jeil jungyohaeyo.,健康最重要。,健康が一番大切です。,Health is the most important thing.,
+30,important,중요,jungyo,重要,zhòngyào,重要,jūyō,이건 중요해요.,Igeon jungyohaeyo.,这很重要。,これは重要です。,This is important.,
+31,necessary,필요,piryo,必要,bìyào,必要,hitsuyō,그건 필요 없어요.,Geugeon piryo eopseoyo.,没有必要。,それは必要ありません。,That's not necessary.,ko 필요 is pronounced [피료] → piryo
+32,possible,가능,ganeung,可能,kěnéng,可能,kanō,가능해요?,Ganeunghaeyo?,这可能吗？,可能ですか。,Is it possible?,

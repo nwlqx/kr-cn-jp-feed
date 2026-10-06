@@ -65,9 +65,18 @@ def pick_positions(day_number, offsets):
 
 # ---------------------------------------------------------------- formatting
 
-def make_title(w):
-    """'학습 学习 学習', or '학생 学生' when Chinese and Japanese are identical."""
-    parts = [w["ko"], w["zh"]]
+def korean_form(w, cfg, hangul_key, rom_key):
+    """Hangul, or its romanization when korean_script is "romanized"
+    (the Wodle's font has no Hangul, so Hangul shows as empty boxes)."""
+    if cfg.get("korean_script", "hangul") == "romanized":
+        return w.get(rom_key, "")
+    return w[hangul_key]
+
+
+def make_title(w, cfg):
+    """'학습 学习 学習', or '학생 学生' when Chinese and Japanese are identical.
+    With korean_script = "romanized": 'hakseup 学习 学習'."""
+    parts = [korean_form(w, cfg, "ko", "ko_rom"), w["zh"]]
     if w["ja"] and w["ja"] != w["zh"]:
         parts.append(w["ja"])
     return " ".join(p for p in parts if p)
@@ -76,7 +85,9 @@ def make_title(w):
 def make_description(w, cfg):
     """Meaning first (all the home screen shows), then readings, examples, English."""
     readings = " / ".join(p for p in [w["ko_rom"], w["zh_pinyin"], w["ja_rom"]] if p)
-    parts = [w["meaning"], readings, w["ex_ko"], w["ex_zh"]]
+    # A missing romanized example (blank ex_ko_rom) is simply left out.
+    parts = [w["meaning"], readings,
+             korean_form(w, cfg, "ex_ko", "ex_ko_rom"), w["ex_zh"]]
     if cfg.get("include_ja_example", True):
         parts.append(w["ex_ja"])
     parts.append(w["ex_en"])
@@ -116,7 +127,7 @@ def build_feed(words, cfg, today):
         shown_on = start + timedelta(days=pos)  # the day this word was "today"
         pub = datetime(shown_on.year, shown_on.month, shown_on.day,
                        cfg["publish_hour"], tzinfo=tz)
-        title = make_title(w)
+        title = make_title(w, cfg)
         if len(title) > cfg["title_warn_chars"]:
             warnings.append(f"title over {cfg['title_warn_chars']} chars "
                             f"(id {w['id']}): {title} [{len(title)}]")

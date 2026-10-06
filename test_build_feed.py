@@ -1,4 +1,5 @@
 """Tests for build_feed.py. Run with:  python3 -m unittest -v"""
+import re
 import unittest
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
@@ -10,6 +11,8 @@ CFG = bf.load_config()
 WORDS = bf.load_words()
 START = date.fromisoformat(CFG["start_date"])
 N_ITEMS = len(CFG["review_offsets_days"])
+SUMMARY_TITLE_MAX = 24
+HANGUL = re.compile("[\uac00-\ud7a3\u1100-\u11ff\u3130-\u318f]")
 
 
 def items_for(day, cfg=CFG):
@@ -36,23 +39,36 @@ class FeedTests(unittest.TestCase):
     def test_item_one_is_todays_word(self):
         for d in self.DATES:
             n = (d - START).days
-            expected = bf.make_title(WORDS[n % len(WORDS)])
+            expected = bf.make_title(WORDS[n % len(WORDS)], CFG)
             self.assertEqual(items_for(d)[0].findtext("title"), expected, d)
 
     def test_review_items_follow_offsets(self):
         d = START + timedelta(days=20)
         titles = [i.findtext("title") for i in items_for(d)]
-        expected = [bf.make_title(WORDS[(20 - o) % len(WORDS)])
+        expected = [bf.make_title(WORDS[(20 - o) % len(WORDS)], CFG)
                     for o in CFG["review_offsets_days"]]
         self.assertEqual(titles, expected)
 
-    def test_titles_fit_home_screen(self):
-        too_long = [bf.make_title(w) for w in WORDS
-                    if len(bf.make_title(w)) > CFG["title_warn_chars"]]
-        self.assertEqual(too_long, [], "shorten these or raise title_warn_chars")
+    def test_titles_fit_summary_page(self):
+        # Over title_warn_chars (home screen) only prints a warning; over
+        # ~24 chars (two lines on the Summary page) fails, for both scripts.
+        for script in ("hangul", "romanized"):
+            cfg = {**CFG, "korean_script": script}
+            too_long = [bf.make_title(w, cfg) for w in WORDS
+                        if len(bf.make_title(w, cfg)) > SUMMARY_TITLE_MAX]
+            self.assertEqual(too_long, [], script)
 
     def test_identical_zh_ja_shown_once(self):
-        self.assertEqual(bf.make_title({"ko": "학생", "zh": "学生", "ja": "学生"}), "학생 学生")
+        w = {"ko": "학생", "ko_rom": "haksaeng", "zh": "学生", "ja": "学生"}
+        self.assertEqual(bf.make_title(w, {**CFG, "korean_script": "hangul"}), "학생 学生")
+        self.assertEqual(bf.make_title(w, {**CFG, "korean_script": "romanized"}), "haksaeng 学生")
+
+    def test_romanized_has_no_hangul(self):
+        cfg = {**CFG, "korean_script": "romanized"}
+        xml, _ = bf.build_feed(WORDS, cfg, START + timedelta(days=9))
+        self.assertIsNone(HANGUL.search(xml), "Hangul found in romanized feed")
+        for w in WORDS:
+            self.assertTrue(w["ko_rom"] and w["ex_ko_rom"], f"id {w['id']} missing romanization")
 
     def test_layouts_and_length_cap(self):
         w = WORDS[0]

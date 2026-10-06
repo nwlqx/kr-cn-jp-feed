@@ -2,7 +2,9 @@
 
 A daily RSS 2.0 feed for a Wodle e-ink device. Each day it publishes 3 cards. Each card shows one concept in Korean, Simplified Chinese and Japanese, usually as cognates with the same Chinese-character root (학습 / 学习 / 学習).
 
-**Feed URLs.** The content is the same at each. If the device can't load one, try the next:
+**Feed URL for the Wodle:** https://nwlqx-vocab.oss-cn-hongkong.aliyuncs.com/feed.xml (Alibaba Cloud OSS, Hong Kong). This is the one that loads on the device. Its fetches go through mainland China, where the other URLs below fail.
+
+The same feed is also published at these URLs:
 
 1. https://cdn.jsdelivr.net/gh/nwlqx/kr-cn-jp-feed@main/feed.xml
 2. https://fastly.jsdelivr.net/gh/nwlqx/kr-cn-jp-feed@main/feed.xml
@@ -42,13 +44,13 @@ python3 build_feed.py --date 2026-11-01    # preview another day
 Add rows to the end of `words.csv`. The file must be saved as UTF-8 and keep the same header row. In Excel, choose **CSV UTF-8**.
 
 - `id` must be unique. Use the next number.
-- `zh` is Simplified Chinese. `zh_pinyin` uses tone marks (xuéxí). `ko_rom` uses Revised Romanization. `ja_rom` uses Hepburn with macrons (gakushū).
+- `zh` is Simplified Chinese. `zh_pinyin` uses tone marks (xuéxí). `ko_rom` uses Revised Romanization, following pronunciation. `ex_ko_rom` is the Korean example sentence romanized the same way. It's needed while `korean_script` is `"romanized"`; if it's left blank, the Korean example is left out. `ja_rom` uses Hepburn with macrons (gakushū).
 - When `zh` and `ja` are identical, the title shows the form only once (학생 学生).
 - `notes` is for you only and never appears in the feed.
 
 You can add rows at any time. Rows added at the end are picked up as the schedule reaches them. One catch: once the schedule has wrapped back to the top at least once, changing the number of rows also changes which row is "today", because the position is calculated as days ÷ rows. If you want a clean restart, set `start_date` to today.
 
-If a title is longer than `title_warn_chars` (13), the build prints a warning and the title-length test fails. That limit is roughly what fits on the home-screen widget.
+If a title is longer than `title_warn_chars` (13), the build prints a warning. That limit is roughly what fits on the home-screen widget, which cuts off the end of the title. The test only fails if a title is longer than 24 characters, which is about two lines on the Summary page.
 
 ## Settings (`config.json`)
 
@@ -56,6 +58,7 @@ If a title is longer than `title_warn_chars` (13), the build prints a warning an
 |---|---|
 | `start_date` | The day row 1 is shown, as `YYYY-MM-DD`. |
 | `review_offsets_days` | Days back for each item. The default `[0, 3, 7]` gives today, 3 days ago and 7 days ago. List them in increasing order, starting with 0. The number of entries sets the number of items. |
+| `korean_script` | `"romanized"` shows Korean as Revised Romanization (hakseup). `"hangul"` shows Hangul (학습). The Wodle's font has no Hangul, so Hangul appears as empty boxes. Keep `romanized` for the Wodle. |
 | `description_layout` | `"br"` puts each part on its own line using `<br/>` inside CDATA. `"dot"` puts everything on one line separated by ` · `. Use `dot` if the Wodle shows `<br/>` as literal text or ignores it. |
 | `max_description_chars` | `null` means no limit. With a number, the description keeps as many whole parts as fit and cuts the last one with `…`. |
 | `include_ja_example` | Set to `false` to drop the Japanese example sentence, for example if kana don't render. Japanese words and romaji still appear. |

@@ -9,6 +9,7 @@
 
   "review_offsets_days": [0, 3, 7],
 
+  "korean_script": "romanized",
   "description_layout": "br",
   "max_description_chars": null,
   "include_ja_example": true,
