@@ -1,0 +1,17 @@
+{
+  "feed_title": "KR · CN · JP",
+  "feed_description": "Korean, Chinese and Japanese word sets",
+  "site_url": "https://nwlqx.github.io/kr-cn-jp-feed/",
+
+  "start_date": "2026-10-06",
+  "utc_offset_hours": 8,
+  "publish_hour": 6,
+
+  "review_offsets_days": [0, 3, 7],
+
+  "description_layout": "br",
+  "max_description_chars": null,
+  "include_ja_example": true,
+
+  "title_warn_chars": 13
+}

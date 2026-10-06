@@ -1,0 +1,84 @@
+name: Daily feed
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 22:00 UTC = 06:00 Singapore time (next day)
+  push:
+    branches: [main]       # rebuild right away when you add words
+  workflow_dispatch:       # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write          # commit feed.xml back to the repo
+  pages: write             # deploy to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}feed.xml
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python -m unittest -v
+
+      # build_feed.py validates the XML itself and exits non-zero if it's
+      # malformed, so a broken feed never gets published.
+      - name: Build feed
+        run: python build_feed.py
+
+      # Committing the feed daily keeps the repo "active", so GitHub doesn't
+      # auto-disable this schedule after 60 days without commits.
+      - name: Commit feed.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Update feed $(TZ=Asia/Singapore date +%F)"
+            git push
+          fi
+
+      - name: Stage site
+        run: mkdir _site && cp feed.xml _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      # ---- Optional fallback: Alibaba Cloud OSS (Hong Kong) -----------------
+      # Off by default. To turn on, set repo variable OSS_ENABLED = true and
+      # add the secrets listed in the README.
+      - name: Upload to Alibaba Cloud OSS
+        if: vars.OSS_ENABLED == 'true'
+        env:
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
+          OSS_ENDPOINT: ${{ vars.OSS_ENDPOINT || 'https://oss-cn-hongkong.aliyuncs.com' }}
+        run: |
+          pip install --quiet oss2
+          python - <<'EOF'
+          import os, oss2
+          auth = oss2.Auth(os.environ["OSS_ACCESS_KEY_ID"], os.environ["OSS_ACCESS_KEY_SECRET"])
+          bucket = oss2.Bucket(auth, os.environ["OSS_ENDPOINT"], os.environ["OSS_BUCKET"])
+          bucket.put_object_from_file("feed.xml", "feed.xml", headers={
+              "Content-Type": "application/rss+xml; charset=utf-8",
+              "Cache-Control": "max-age=300",
+              "x-oss-object-acl": "public-read",
+          })
+          print("uploaded feed.xml to OSS bucket", os.environ["OSS_BUCKET"])
+          EOF
