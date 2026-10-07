@@ -5,8 +5,16 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Tue, 06 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
+
+  <item>
+    <title>sigan 时间 時間</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-07</link>
+    <guid isPermaLink="false">2026-10-07-2</guid>
+    <pubDate>Wed, 07 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[time<br/>sigan / shíjiān / jikan<br/>Sigani eopseoyo.<br/>我没有时间。<br/>時間がありません。<br/>I don't have time.]]></description>
+  </item>
 
   <item>
     <title>hakseup 学习 学習</title>
@@ -22,14 +30,6 @@
     <guid isPermaLink="false">2026-10-05-32</guid>
     <pubDate>Mon, 05 Oct 2026 06:00:00 +0800</pubDate>
     <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
-  </item>
-
-  <item>
-    <title>piryo 必要</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-04</link>
-    <guid isPermaLink="false">2026-10-04-31</guid>
-    <pubDate>Sun, 04 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[necessary<br/>piryo / bìyào / hitsuyō<br/>Geugeon piryo eopseoyo.<br/>没有必要。<br/>それは必要ありません。<br/>That's not necessary.]]></description>
   </item>
 </channel>
 </rss>
