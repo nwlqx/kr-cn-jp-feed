@@ -5,8 +5,16 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Wed, 07 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
+
+  <item>
+    <title>haksaeng 学生</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-08</link>
+    <guid isPermaLink="false">2026-10-08-3</guid>
+    <pubDate>Thu, 08 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
+  </item>
 
   <item>
     <title>sigan 时间 時間</title>
@@ -22,14 +30,6 @@
     <guid isPermaLink="false">2026-10-06-1</guid>
     <pubDate>Tue, 06 Oct 2026 06:00:00 +0800</pubDate>
     <description><![CDATA[to study<br/>hakseup / xuéxí / gakushū<br/>Maeil hangugeoreul hakseupaeyo.<br/>我每天学习韩语。<br/>毎日韓国語を学習しています。<br/>I study Korean every day.]]></description>
-  </item>
-
-  <item>
-    <title>ganeung 可能</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-05</link>
-    <guid isPermaLink="false">2026-10-05-32</guid>
-    <pubDate>Mon, 05 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
   </item>
 </channel>
 </rss>
