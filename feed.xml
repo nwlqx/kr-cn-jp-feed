@@ -5,15 +5,23 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Fri, 09 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>daehak 大学</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-09</link>
-    <guid isPermaLink="false">2026-10-09-4</guid>
-    <pubDate>Fri, 09 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[university<br/>daehak / dàxué / daigaku<br/>Daehage danyeoyo.<br/>我在上大学。<br/>大学に通っています。<br/>I go to university.]]></description>
+    <title>doseogwan 图书馆 図書館</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-10</link>
+    <guid isPermaLink="false">2026-10-10-5</guid>
+    <pubDate>Sat, 10 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[library<br/>doseogwan / túshūguǎn / toshokan<br/>Doseogwane gayo.<br/>我去图书馆。<br/>図書館に行きます。<br/>I'm going to the library.]]></description>
+  </item>
+
+  <item>
+    <title>sigan 时间 時間</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-07</link>
+    <guid isPermaLink="false">2026-10-07-2</guid>
+    <pubDate>Wed, 07 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[time<br/>sigan / shíjiān / jikan<br/>Sigani eopseoyo.<br/>我没有时间。<br/>時間がありません。<br/>I don't have time.]]></description>
   </item>
 
   <item>
@@ -22,14 +30,6 @@
     <guid isPermaLink="false">2026-10-06-1</guid>
     <pubDate>Tue, 06 Oct 2026 06:00:00 +0800</pubDate>
     <description><![CDATA[to study<br/>hakseup / xuéxí / gakushū<br/>Maeil hangugeoreul hakseupaeyo.<br/>我每天学习韩语。<br/>毎日韓国語を学習しています。<br/>I study Korean every day.]]></description>
-  </item>
-
-  <item>
-    <title>ganeung 可能</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-05</link>
-    <guid isPermaLink="false">2026-10-05-32</guid>
-    <pubDate>Mon, 05 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
   </item>
 </channel>
 </rss>
