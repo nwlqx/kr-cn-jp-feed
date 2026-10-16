@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Thu, 15 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>segye 世界</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-15</link>
-    <guid isPermaLink="false">2026-10-15-10</guid>
-    <pubDate>Thu, 15 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[world<br/>segye / shìjiè / sekai<br/>Segyeneun neolbeoyo.<br/>世界很大。<br/>世界は広いです。<br/>The world is big.]]></description>
+    <title>gyeongje 经济 経済</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-16</link>
+    <guid isPermaLink="false">2026-10-16-11</guid>
+    <pubDate>Fri, 16 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[economy<br/>gyeongje / jīngjì / keizai<br/>Gyeongjega joajyeosseoyo.<br/>经济变好了。<br/>経済が良くなりました。<br/>The economy has improved.]]></description>
   </item>
 
   <item>
-    <title>eunhaeng 银行 銀行</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-12</link>
-    <guid isPermaLink="false">2026-10-12-7</guid>
-    <pubDate>Mon, 12 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[bank<br/>eunhaeng / yínháng / ginkō<br/>Eunhaengeun eodiyeyo?<br/>银行在哪里？<br/>銀行はどこですか。<br/>Where is the bank?]]></description>
+    <title>eumak 音乐 音楽</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-13</link>
+    <guid isPermaLink="false">2026-10-13-8</guid>
+    <pubDate>Tue, 13 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[music<br/>eumak / yīnyuè / ongaku<br/>Eumageul joahaeyo.<br/>我喜欢音乐。<br/>音楽が好きです。<br/>I like music.]]></description>
   </item>
 
   <item>
-    <title>haksaeng 学生</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-08</link>
-    <guid isPermaLink="false">2026-10-08-3</guid>
-    <pubDate>Thu, 08 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
+    <title>daehak 大学</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-09</link>
+    <guid isPermaLink="false">2026-10-09-4</guid>
+    <pubDate>Fri, 09 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[university<br/>daehak / dàxué / daigaku<br/>Daehage danyeoyo.<br/>我在上大学。<br/>大学に通っています。<br/>I go to university.]]></description>
   </item>
 </channel>
 </rss>
