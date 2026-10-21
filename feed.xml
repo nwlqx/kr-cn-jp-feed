@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>yeonseup 练习 練習</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-20</link>
-    <guid isPermaLink="false">2026-10-20-15</guid>
-    <pubDate>Tue, 20 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[practice<br/>yeonseup / liànxí / renshū<br/>Maeil yeonseupaeyo.<br/>我每天练习。<br/>毎日練習します。<br/>I practice every day.]]></description>
+    <title>saenghwal 生活</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-21</link>
+    <guid isPermaLink="false">2026-10-21-16</guid>
+    <pubDate>Wed, 21 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[daily life<br/>saenghwal / shēnghuó / seikatsu<br/>Hanguk saenghwareun eottaeyo?<br/>在韩国的生活怎么样？<br/>韓国での生活はどうですか。<br/>How is life in Korea?]]></description>
   </item>
 
   <item>
-    <title>undong 运动 運動</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-17</link>
-    <guid isPermaLink="false">2026-10-17-12</guid>
-    <pubDate>Sat, 17 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[exercise<br/>undong / yùndòng / undō<br/>Maeil undonghaeyo.<br/>我每天运动。<br/>毎日運動します。<br/>I exercise every day.]]></description>
+    <title>yeohaeng 旅行</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-18</link>
+    <guid isPermaLink="false">2026-10-18-13</guid>
+    <pubDate>Sun, 18 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[travel<br/>yeohaeng / lǚxíng / ryokō<br/>Yeohaengeul joahaeyo.<br/>我喜欢旅行。<br/>旅行が好きです。<br/>I like traveling.]]></description>
   </item>
 
   <item>
-    <title>eumak 音乐 音楽</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-13</link>
-    <guid isPermaLink="false">2026-10-13-8</guid>
-    <pubDate>Tue, 13 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[music<br/>eumak / yīnyuè / ongaku<br/>Eumageul joahaeyo.<br/>我喜欢音乐。<br/>音楽が好きです。<br/>I like music.]]></description>
+    <title>munje 问题 問題</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-14</link>
+    <guid isPermaLink="false">2026-10-14-9</guid>
+    <pubDate>Wed, 14 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[problem, question<br/>munje / wèntí / mondai<br/>Munje-eopseoyo.<br/>没问题。<br/>問題ありません。<br/>No problem.]]></description>
   </item>
 </channel>
 </rss>
