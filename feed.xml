@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Wed, 21 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>saenghwal 生活</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-21</link>
-    <guid isPermaLink="false">2026-10-21-16</guid>
-    <pubDate>Wed, 21 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[daily life<br/>saenghwal / shēnghuó / seikatsu<br/>Hanguk saenghwareun eottaeyo?<br/>在韩国的生活怎么样？<br/>韓国での生活はどうですか。<br/>How is life in Korea?]]></description>
+    <title>munhwa 文化</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-22</link>
+    <guid isPermaLink="false">2026-10-22-17</guid>
+    <pubDate>Thu, 22 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[culture<br/>munhwa / wénhuà / bunka<br/>Hanguk munhwae gwansimi isseoyo.<br/>我对韩国文化感兴趣。<br/>韓国の文化に興味があります。<br/>I'm interested in Korean culture.]]></description>
   </item>
 
   <item>
-    <title>yeohaeng 旅行</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-18</link>
-    <guid isPermaLink="false">2026-10-18-13</guid>
-    <pubDate>Sun, 18 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[travel<br/>yeohaeng / lǚxíng / ryokō<br/>Yeohaengeul joahaeyo.<br/>我喜欢旅行。<br/>旅行が好きです。<br/>I like traveling.]]></description>
+    <title>junbi 准备 準備</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-19</link>
+    <guid isPermaLink="false">2026-10-19-14</guid>
+    <pubDate>Mon, 19 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[preparation<br/>junbi / zhǔnbèi / junbi<br/>Junbidwaesseoyo?<br/>准备好了吗？<br/>準備はできましたか。<br/>Are you ready?]]></description>
   </item>
 
   <item>
-    <title>munje 问题 問題</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-14</link>
-    <guid isPermaLink="false">2026-10-14-9</guid>
-    <pubDate>Wed, 14 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[problem, question<br/>munje / wèntí / mondai<br/>Munje-eopseoyo.<br/>没问题。<br/>問題ありません。<br/>No problem.]]></description>
+    <title>segye 世界</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-15</link>
+    <guid isPermaLink="false">2026-10-15-10</guid>
+    <pubDate>Thu, 15 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[world<br/>segye / shìjiè / sekai<br/>Segyeneun neolbeoyo.<br/>世界很大。<br/>世界は広いです。<br/>The world is big.]]></description>
   </item>
 </channel>
 </rss>
