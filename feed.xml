@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>gongwon 公园 公園</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-27</link>
-    <guid isPermaLink="false">2026-10-27-22</guid>
-    <pubDate>Tue, 27 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[park<br/>gongwon / gōngyuán / kōen<br/>Gongwoneseo sanchaekaeyo.<br/>我在公园散步。<br/>公園で散歩します。<br/>I take a walk in the park.]]></description>
+    <title>uigyeon 意见 意見</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-28</link>
+    <guid isPermaLink="false">2026-10-28-23</guid>
+    <pubDate>Wed, 28 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[opinion<br/>uigyeon / yìjiàn / iken<br/>Uigyeoneul malhae juseyo.<br/>请说说你的意见。<br/>意見を言ってください。<br/>Please share your opinion.]]></description>
   </item>
 
   <item>
-    <title>juui 注意</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-24</link>
-    <guid isPermaLink="false">2026-10-24-19</guid>
-    <pubDate>Sat, 24 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[caution, attention<br/>juui / zhùyì / chūi<br/>Juuihaseyo.<br/>请注意。<br/>注意してください。<br/>Please be careful.]]></description>
+    <title>gyehoek 计划 計画</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-25</link>
+    <guid isPermaLink="false">2026-10-25-20</guid>
+    <pubDate>Sun, 25 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[plan<br/>gyehoek / jìhuà / keikaku<br/>Gyehoegi isseoyo?<br/>你有计划吗？<br/>計画がありますか。<br/>Do you have a plan?]]></description>
   </item>
 
   <item>
-    <title>yeonseup 练习 練習</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-20</link>
-    <guid isPermaLink="false">2026-10-20-15</guid>
-    <pubDate>Tue, 20 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[practice<br/>yeonseup / liànxí / renshū<br/>Maeil yeonseupaeyo.<br/>我每天练习。<br/>毎日練習します。<br/>I practice every day.]]></description>
+    <title>saenghwal 生活</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-21</link>
+    <guid isPermaLink="false">2026-10-21-16</guid>
+    <pubDate>Wed, 21 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[daily life<br/>saenghwal / shēnghuó / seikatsu<br/>Hanguk saenghwareun eottaeyo?<br/>在韩国的生活怎么样？<br/>韓国での生活はどうですか。<br/>How is life in Korea?]]></description>
   </item>
 </channel>
 </rss>
