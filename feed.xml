@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Wed, 28 Oct 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>uigyeon 意见 意見</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-28</link>
-    <guid isPermaLink="false">2026-10-28-23</guid>
-    <pubDate>Wed, 28 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[opinion<br/>uigyeon / yìjiàn / iken<br/>Uigyeoneul malhae juseyo.<br/>请说说你的意见。<br/>意見を言ってください。<br/>Please share your opinion.]]></description>
+    <title>gyeoljeong 决定 決定</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-29</link>
+    <guid isPermaLink="false">2026-10-29-24</guid>
+    <pubDate>Thu, 29 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[decision<br/>gyeoljeong / juédìng / kettei<br/>Gyeoljeonghaesseoyo.<br/>我决定了。<br/>決定しました。<br/>I've decided.]]></description>
   </item>
 
   <item>
-    <title>gyehoek 计划 計画</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-25</link>
-    <guid isPermaLink="false">2026-10-25-20</guid>
-    <pubDate>Sun, 25 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[plan<br/>gyehoek / jìhuà / keikaku<br/>Gyehoegi isseoyo?<br/>你有计划吗？<br/>計画がありますか。<br/>Do you have a plan?]]></description>
+    <title>dongmul 动物 動物</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-26</link>
+    <guid isPermaLink="false">2026-10-26-21</guid>
+    <pubDate>Mon, 26 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[animal<br/>dongmul / dòngwù / dōbutsu<br/>Dongmureul joahaeyo.<br/>我喜欢动物。<br/>動物が好きです。<br/>I like animals.]]></description>
   </item>
 
   <item>
-    <title>saenghwal 生活</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-21</link>
-    <guid isPermaLink="false">2026-10-21-16</guid>
-    <pubDate>Wed, 21 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[daily life<br/>saenghwal / shēnghuó / seikatsu<br/>Hanguk saenghwareun eottaeyo?<br/>在韩国的生活怎么样？<br/>韓国での生活はどうですか。<br/>How is life in Korea?]]></description>
+    <title>munhwa 文化</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-22</link>
+    <guid isPermaLink="false">2026-10-22-17</guid>
+    <pubDate>Thu, 22 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[culture<br/>munhwa / wénhuà / bunka<br/>Hanguk munhwae gwansimi isseoyo.<br/>我对韩国文化感兴趣。<br/>韓国の文化に興味があります。<br/>I'm interested in Korean culture.]]></description>
   </item>
 </channel>
 </rss>
