@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Wed, 04 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>jungyo 重要</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-04</link>
-    <guid isPermaLink="false">2026-11-04-30</guid>
-    <pubDate>Wed, 04 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[important<br/>jungyo / zhòngyào / jūyō<br/>Igeon jungyohaeyo.<br/>这很重要。<br/>これは重要です。<br/>This is important.]]></description>
+    <title>piryo 必要</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-05</link>
+    <guid isPermaLink="false">2026-11-05-31</guid>
+    <pubDate>Thu, 05 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[necessary<br/>piryo / bìyào / hitsuyō<br/>Geugeon piryo eopseoyo.<br/>没有必要。<br/>それは必要ありません。<br/>That's not necessary.]]></description>
   </item>
 
   <item>
-    <title>sijang 市场 市場</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-01</link>
-    <guid isPermaLink="false">2026-11-01-27</guid>
-    <pubDate>Sun, 01 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[market<br/>sijang / shìchǎng / ichiba<br/>Sijange gayo.<br/>我去市场。<br/>市場に行きます。<br/>I'm going to the market.]]></description>
+    <title>gamsa 感谢 感謝</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-02</link>
+    <guid isPermaLink="false">2026-11-02-28</guid>
+    <pubDate>Mon, 02 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[gratitude<br/>gamsa / gǎnxiè / kansha<br/>Jeongmal gamsahamnida.<br/>非常感谢。<br/>本当に感謝しています。<br/>Thank you very much.]]></description>
   </item>
 
   <item>
-    <title>uigyeon 意见 意見</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-28</link>
-    <guid isPermaLink="false">2026-10-28-23</guid>
-    <pubDate>Wed, 28 Oct 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[opinion<br/>uigyeon / yìjiàn / iken<br/>Uigyeoneul malhae juseyo.<br/>请说说你的意见。<br/>意見を言ってください。<br/>Please share your opinion.]]></description>
+    <title>gyeoljeong 决定 決定</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-10-29</link>
+    <guid isPermaLink="false">2026-10-29-24</guid>
+    <pubDate>Thu, 29 Oct 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[decision<br/>gyeoljeong / juédìng / kettei<br/>Gyeoljeonghaesseoyo.<br/>我决定了。<br/>決定しました。<br/>I've decided.]]></description>
   </item>
 </channel>
 </rss>
