@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Sun, 08 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>sigan 时间 時間</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-08</link>
-    <guid isPermaLink="false">2026-11-08-2</guid>
-    <pubDate>Sun, 08 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[time<br/>sigan / shíjiān / jikan<br/>Sigani eopseoyo.<br/>我没有时间。<br/>時間がありません。<br/>I don't have time.]]></description>
+    <title>haksaeng 学生</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-09</link>
+    <guid isPermaLink="false">2026-11-09-3</guid>
+    <pubDate>Mon, 09 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
   </item>
 
   <item>
-    <title>piryo 必要</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-05</link>
-    <guid isPermaLink="false">2026-11-05-31</guid>
-    <pubDate>Thu, 05 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[necessary<br/>piryo / bìyào / hitsuyō<br/>Geugeon piryo eopseoyo.<br/>没有必要。<br/>それは必要ありません。<br/>That's not necessary.]]></description>
+    <title>ganeung 可能</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-06</link>
+    <guid isPermaLink="false">2026-11-06-32</guid>
+    <pubDate>Fri, 06 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
   </item>
 
   <item>
-    <title>sijang 市场 市場</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-01</link>
-    <guid isPermaLink="false">2026-11-01-27</guid>
-    <pubDate>Sun, 01 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[market<br/>sijang / shìchǎng / ichiba<br/>Sijange gayo.<br/>我去市场。<br/>市場に行きます。<br/>I'm going to the market.]]></description>
+    <title>gamsa 感谢 感謝</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-02</link>
+    <guid isPermaLink="false">2026-11-02-28</guid>
+    <pubDate>Mon, 02 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[gratitude<br/>gamsa / gǎnxiè / kansha<br/>Jeongmal gamsahamnida.<br/>非常感谢。<br/>本当に感謝しています。<br/>Thank you very much.]]></description>
   </item>
 </channel>
 </rss>
