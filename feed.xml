@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Mon, 09 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>haksaeng 学生</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-09</link>
-    <guid isPermaLink="false">2026-11-09-3</guid>
-    <pubDate>Mon, 09 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
+    <title>daehak 大学</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-10</link>
+    <guid isPermaLink="false">2026-11-10-4</guid>
+    <pubDate>Tue, 10 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[university<br/>daehak / dàxué / daigaku<br/>Daehage danyeoyo.<br/>我在上大学。<br/>大学に通っています。<br/>I go to university.]]></description>
   </item>
 
   <item>
-    <title>ganeung 可能</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-06</link>
-    <guid isPermaLink="false">2026-11-06-32</guid>
-    <pubDate>Fri, 06 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
+    <title>hakseup 学习 学習</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-07</link>
+    <guid isPermaLink="false">2026-11-07-1</guid>
+    <pubDate>Sat, 07 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[to study<br/>hakseup / xuéxí / gakushū<br/>Maeil hangugeoreul hakseupaeyo.<br/>我每天学习韩语。<br/>毎日韓国語を学習しています。<br/>I study Korean every day.]]></description>
   </item>
 
   <item>
-    <title>gamsa 感谢 感謝</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-02</link>
-    <guid isPermaLink="false">2026-11-02-28</guid>
-    <pubDate>Mon, 02 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[gratitude<br/>gamsa / gǎnxiè / kansha<br/>Jeongmal gamsahamnida.<br/>非常感谢。<br/>本当に感謝しています。<br/>Thank you very much.]]></description>
+    <title>geongang 健康</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-03</link>
+    <guid isPermaLink="false">2026-11-03-29</guid>
+    <pubDate>Tue, 03 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[health<br/>geongang / jiànkāng / kenkō<br/>Geongangi jeil jungyohaeyo.<br/>健康最重要。<br/>健康が一番大切です。<br/>Health is the most important thing.]]></description>
   </item>
 </channel>
 </rss>
