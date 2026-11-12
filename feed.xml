@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Wed, 11 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>doseogwan 图书馆 図書館</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-11</link>
-    <guid isPermaLink="false">2026-11-11-5</guid>
-    <pubDate>Wed, 11 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[library<br/>doseogwan / túshūguǎn / toshokan<br/>Doseogwane gayo.<br/>我去图书馆。<br/>図書館に行きます。<br/>I'm going to the library.]]></description>
+    <title>jeonhwa 电话 電話</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-12</link>
+    <guid isPermaLink="false">2026-11-12-6</guid>
+    <pubDate>Thu, 12 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[telephone<br/>jeonhwa / diànhuà / denwa<br/>Jeonhwahae juseyo.<br/>请给我打电话。<br/>電話してください。<br/>Please call me.]]></description>
   </item>
 
   <item>
-    <title>sigan 时间 時間</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-08</link>
-    <guid isPermaLink="false">2026-11-08-2</guid>
-    <pubDate>Sun, 08 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[time<br/>sigan / shíjiān / jikan<br/>Sigani eopseoyo.<br/>我没有时间。<br/>時間がありません。<br/>I don't have time.]]></description>
+    <title>haksaeng 学生</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-09</link>
+    <guid isPermaLink="false">2026-11-09-3</guid>
+    <pubDate>Mon, 09 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
   </item>
 
   <item>
-    <title>jungyo 重要</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-04</link>
-    <guid isPermaLink="false">2026-11-04-30</guid>
-    <pubDate>Wed, 04 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[important<br/>jungyo / zhòngyào / jūyō<br/>Igeon jungyohaeyo.<br/>这很重要。<br/>これは重要です。<br/>This is important.]]></description>
+    <title>piryo 必要</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-05</link>
+    <guid isPermaLink="false">2026-11-05-31</guid>
+    <pubDate>Thu, 05 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[necessary<br/>piryo / bìyào / hitsuyō<br/>Geugeon piryo eopseoyo.<br/>没有必要。<br/>それは必要ありません。<br/>That's not necessary.]]></description>
   </item>
 </channel>
 </rss>
