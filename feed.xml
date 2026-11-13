@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Thu, 12 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>jeonhwa 电话 電話</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-12</link>
-    <guid isPermaLink="false">2026-11-12-6</guid>
-    <pubDate>Thu, 12 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[telephone<br/>jeonhwa / diànhuà / denwa<br/>Jeonhwahae juseyo.<br/>请给我打电话。<br/>電話してください。<br/>Please call me.]]></description>
+    <title>eunhaeng 银行 銀行</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-13</link>
+    <guid isPermaLink="false">2026-11-13-7</guid>
+    <pubDate>Fri, 13 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[bank<br/>eunhaeng / yínháng / ginkō<br/>Eunhaengeun eodiyeyo?<br/>银行在哪里？<br/>銀行はどこですか。<br/>Where is the bank?]]></description>
   </item>
 
   <item>
-    <title>haksaeng 学生</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-09</link>
-    <guid isPermaLink="false">2026-11-09-3</guid>
-    <pubDate>Mon, 09 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[student<br/>haksaeng / xuésheng / gakusei<br/>Jeoneun haksaengieyo.<br/>我是学生。<br/>私は学生です。<br/>I am a student.]]></description>
+    <title>daehak 大学</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-10</link>
+    <guid isPermaLink="false">2026-11-10-4</guid>
+    <pubDate>Tue, 10 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[university<br/>daehak / dàxué / daigaku<br/>Daehage danyeoyo.<br/>我在上大学。<br/>大学に通っています。<br/>I go to university.]]></description>
   </item>
 
   <item>
-    <title>piryo 必要</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-05</link>
-    <guid isPermaLink="false">2026-11-05-31</guid>
-    <pubDate>Thu, 05 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[necessary<br/>piryo / bìyào / hitsuyō<br/>Geugeon piryo eopseoyo.<br/>没有必要。<br/>それは必要ありません。<br/>That's not necessary.]]></description>
+    <title>ganeung 可能</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-06</link>
+    <guid isPermaLink="false">2026-11-06-32</guid>
+    <pubDate>Fri, 06 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
   </item>
 </channel>
 </rss>
