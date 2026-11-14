@@ -5,31 +5,31 @@
   <link>https://nwlqx.github.io/kr-cn-jp-feed/</link>
   <description>Korean, Chinese and Japanese word sets</description>
   <language>en</language>
-  <lastBuildDate>Fri, 13 Nov 2026 06:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 06:00:00 +0800</lastBuildDate>
   <ttl>360</ttl>
 
   <item>
-    <title>eunhaeng 银行 銀行</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-13</link>
-    <guid isPermaLink="false">2026-11-13-7</guid>
-    <pubDate>Fri, 13 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[bank<br/>eunhaeng / yínháng / ginkō<br/>Eunhaengeun eodiyeyo?<br/>银行在哪里？<br/>銀行はどこですか。<br/>Where is the bank?]]></description>
+    <title>eumak 音乐 音楽</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-14</link>
+    <guid isPermaLink="false">2026-11-14-8</guid>
+    <pubDate>Sat, 14 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[music<br/>eumak / yīnyuè / ongaku<br/>Eumageul joahaeyo.<br/>我喜欢音乐。<br/>音楽が好きです。<br/>I like music.]]></description>
   </item>
 
   <item>
-    <title>daehak 大学</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-10</link>
-    <guid isPermaLink="false">2026-11-10-4</guid>
-    <pubDate>Tue, 10 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[university<br/>daehak / dàxué / daigaku<br/>Daehage danyeoyo.<br/>我在上大学。<br/>大学に通っています。<br/>I go to university.]]></description>
+    <title>doseogwan 图书馆 図書館</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-11</link>
+    <guid isPermaLink="false">2026-11-11-5</guid>
+    <pubDate>Wed, 11 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[library<br/>doseogwan / túshūguǎn / toshokan<br/>Doseogwane gayo.<br/>我去图书馆。<br/>図書館に行きます。<br/>I'm going to the library.]]></description>
   </item>
 
   <item>
-    <title>ganeung 可能</title>
-    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-06</link>
-    <guid isPermaLink="false">2026-11-06-32</guid>
-    <pubDate>Fri, 06 Nov 2026 06:00:00 +0800</pubDate>
-    <description><![CDATA[possible<br/>ganeung / kěnéng / kanō<br/>Ganeunghaeyo?<br/>这可能吗？<br/>可能ですか。<br/>Is it possible?]]></description>
+    <title>hakseup 学习 学習</title>
+    <link>https://nwlqx.github.io/kr-cn-jp-feed/#2026-11-07</link>
+    <guid isPermaLink="false">2026-11-07-1</guid>
+    <pubDate>Sat, 07 Nov 2026 06:00:00 +0800</pubDate>
+    <description><![CDATA[to study<br/>hakseup / xuéxí / gakushū<br/>Maeil hangugeoreul hakseupaeyo.<br/>我每天学习韩语。<br/>毎日韓国語を学習しています。<br/>I study Korean every day.]]></description>
   </item>
 </channel>
 </rss>
